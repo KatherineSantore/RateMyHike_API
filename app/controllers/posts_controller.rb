@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 class PostsController < OpenReadController
-
   before_action :set_post, only: [:show, :update, :destroy]
   # GET /posts
   def index
