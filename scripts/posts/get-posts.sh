@@ -1,4 +1,4 @@
-curl "http://localhost:4741/posts" \
+curl "https://rate-my-hike-api.herokuapp.com/posts" \
   --include \
   --request GET \
 
